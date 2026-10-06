@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.hero-wrapper {
+  font-family: 'Montserrat', sans-serif;
+}
+/* Hero.css */
+.custom-button {
+  outline: none;
+  height: 48px;
+  width: 200px;
+  border-radius: 9999px;
+
+  
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(8px);
+
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition:
+    background 0.25s ease,
+    border-color 0.25s ease,
+    color 0.25s ease,
+    backdrop-filter 0.25s ease;
+}
+
+.custom-button:hover {
+  background: #35530e;
+  border-color: #35530e;
+  color: white;
+  backdrop-filter: none;
+}
+
+.custom-button:active {
+  background: #35530e;
+  border-color: #35530e;
+  color: white;
+  backdrop-filter: none;
+}
+
+.custom-button:focus-visible {
+  outline: 2px solid white;
+  outline-offset: 4px;
+}
